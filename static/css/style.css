@@ -1,3 +1,73 @@
-h1 {
-	color: blue;
+
+h1{
+	font-size:32px;
+}
+h3{
+	font-size:22px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font: Verdana;
+}
+
+header {
+	padding: 5px 45px;
+    text-align: center;
+}
+
+footer {
+	padding:5px 45px;
+	text-align: center;
+}
+
+body {
+	font-family: "Open Sans";
+}
+table
+{
+	margin: 0px auto;
+}
+.h1-class{
+	text-shadow: 1px 1px black;
+	font-style: oblique;
+}
+.link_class {
+	text-decoration: none;
+}
+
+.labelcss{
+	text-align:left;
+	vertical-align:top;
+}
+
+.errorarea{
+	color:red;
+}
+
+#button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {
+    background-color: black;
+    border: solid;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-style: oblique;
+}
+#name,#subject,#message,#email {
+	width:500px;
 }
